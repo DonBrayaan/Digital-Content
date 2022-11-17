@@ -1,0 +1,14 @@
+package com.DigitalContentV2.DigitalContentv2.facade;
+
+import java.util.List;
+
+import com.DigitalContentV2.DigitalContentv2.modelo.Rol;
+
+public interface IRol {
+
+	public List<Rol> encontrarTodo();
+	public Rol encontrarId(Integer idRol);
+	public void crear(Rol rol);
+	public void actualizar(Rol rol);
+	public void eliminar(Rol rol);
+}
